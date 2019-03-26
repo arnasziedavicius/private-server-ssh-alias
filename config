@@ -1,0 +1,9 @@
+Host server-bastion  
+    Hostname <hostname>
+    Port 22
+    User ubuntu
+    IdentityFile <path_to_bastion_pem>
+Host server-private
+    User ubuntu
+    ProxyCommand ssh -A server-bastion -W <ip_address>:%p
+    IdentityFile <path_to_private_pem>
