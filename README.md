@@ -1,2 +1,2 @@
 # private-server-ssh-alias
-Mac OS SSH alias for connecting to private servers via bastion host.
+Replace example values in `config` and paste it in your local SSH configuration file.
