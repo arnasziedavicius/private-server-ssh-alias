@@ -4,7 +4,7 @@
 
 Copy and paste [config](config) contents in your local SSH configuration file and replace example values with your server information.
 
-Local config file can be found in `.ssh` folder in your system user's directory. Make sure to place the pem keys within the same folder as well.
+Local config file can be found in `.ssh` folder in your OS user directory. Make sure to place the pem keys within the same folder as well.
 
 ## Usage
 
